@@ -1,8 +1,3 @@
----
-title: "lab1"
-format: html
-editor: visual
----
 
 ## Цель работы
 
