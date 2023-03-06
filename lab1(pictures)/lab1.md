@@ -31,11 +31,14 @@ uname -r
 ```
 
 ![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work1.png)
+
 2.  Получаем полные сведения о ядре при помощи команды uname -a
 
 ```{bash}
 uname -a
 ```
+
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work2.png)
 
 3.  Используей дистрибутив получаем при помощи команды lsb_release -a
 
@@ -43,11 +46,17 @@ uname -a
 lsb_release -a
 ```
 
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work3.png)
+
 4.  Полную информацию получаем при помощи команды cat /proc/cpuinfo
 
 ```{bash}
 cat /proc/cpuinfo 
 ```
+
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work4.png)
+
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work4.1.png)
 
 5.  Модель процессора получаем при помощи команды cat /proc/cpuinfo \| grep "model name"
 
@@ -55,8 +64,12 @@ cat /proc/cpuinfo
 cat /proc/cpuinfo | grep "model name"
 ```
 
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work5.png)
+
 6.  Все скрытые файлы смотрим при помощи команды ls -a
 
 ```{bash}
 ls -a
 ```
+
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work5.png)
