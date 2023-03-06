@@ -30,6 +30,7 @@ editor: visual
 uname -r
 ```
 
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work1.png)
 2.  Получаем полные сведения о ядре при помощи команды uname -a
 
 ```{bash}
