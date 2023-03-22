@@ -25,7 +25,7 @@
 uname -r
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/Work1.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/Work1.png)
 
 2.  Получаем полные сведения о ядре при помощи команды uname -a
 
@@ -33,7 +33,7 @@ uname -r
 uname -a
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work2.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work2.png)
 
 3.  Используей дистрибутив получаем при помощи команды lsb_release -a
 
@@ -41,7 +41,7 @@ uname -a
 lsb_release -a
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work3.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work3.png)
 
 4.  Полную информацию получаем при помощи команды cat /proc/cpuinfo
 
@@ -49,9 +49,9 @@ lsb_release -a
 cat /proc/cpuinfo 
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work4.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work4.png)
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work4.1.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work4.1.png)
 
 5.  Модель процессора получаем при помощи команды cat /proc/cpuinfo \| grep "model name"
 
@@ -59,7 +59,7 @@ cat /proc/cpuinfo
 cat /proc/cpuinfo | grep "model name"
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work5.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work5.png)
 
 6.  Все скрытые файлы смотрим при помощи команды ls -a
 
@@ -67,7 +67,7 @@ cat /proc/cpuinfo | grep "model name"
 ls -a
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1(pictures)/work6.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab1/work6.png)
 
 ## Оценка результата
 В результате лабораторной работы мы получили основную информацию об системе
