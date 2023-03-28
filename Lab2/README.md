@@ -24,7 +24,7 @@
 ## Описание шагов:
 
 1.  Воспользуемся программой Wireshark для сбора трафика (заходим на различные ресурсы, чтобы получить большую выборку), также не забываем отключить блокираторы рекламы. Получаем файл: traf.pcap (152 МБ)\
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/traficPic-01.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/traficPic.png)
 2.  Устанавливаем WLS(Ubuntu) для работы с Zeek через Windows. Передаем файл и получаем метаинформацию сетевого трафика:
 
 /opt/zeek/bin/zeek -r /mnt/c/traf.pcap
