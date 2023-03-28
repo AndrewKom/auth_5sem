@@ -24,16 +24,16 @@
 ## Описание шагов:
 
 1.  Воспользуемся программой Wireshark для сбора трафика (заходим на различные ресурсы, чтобы получить большую выборку), также не забываем отключить блокираторы рекламы. Получаем файл: traf.pcap (152 МБ)\
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab2/image/traficPic-01.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/traficPic-01.png)
 2.  Устанавливаем WLS(Ubuntu) для работы с Zeek через Windows. Передаем файл и получаем метаинформацию сетевого трафика:
 
 /opt/zeek/bin/zeek -r /mnt/c/traf.pcap
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab2/image/dsnzeek.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/dsnzeek.png)
 
 3.  Соединяем в единый файл списки нежелательного трафика с репрозитория: [StevenBlack (Steven Black) · GitHub](https://github.com/StevenBlack) \
     Полученный файл: Vrednie.txt\
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab2/image/vred.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/vred.png)
 
 4.  На языке python пишем программу, которая подсчитывает процент нежелательного трафика.\
     Преобразовываем файл dns из Zeek в датафрейм\
@@ -61,7 +61,7 @@ final = mer['exists'].value_counts(normalize=True)[1]*100
 print("Процент вредного трафика: ", round(final,3))
 ```
 
-![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab2/image/py1.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/Lab2/image/py1.png)
 
 5.  Оформляем отчет в программе RStudio
 
