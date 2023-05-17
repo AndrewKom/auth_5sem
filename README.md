@@ -3,5 +3,5 @@
 2. Сбор и аналитическая обработка информации о сетевом трафике
 3. Система ElasticSearch
 4. Threat intelligence Platform OpenCTI
-5. Freeplane
+5. Freeplane: ГОСТ Р 50922-2006
 6. OSINT: Инфосистемы Джет
