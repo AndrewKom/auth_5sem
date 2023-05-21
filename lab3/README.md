@@ -43,7 +43,7 @@ editor: visual
 
 > docker run --name kib-01 --net elastic -p 5601:5601 docker.elastic.co/kibana/kibana:8.7.1
 
-![](2.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/2.png)
 
 3.  Увеличиваем память
 
@@ -51,7 +51,7 @@ editor: visual
 
 > sysctl -w vm.max_map_count=262144
 
-![](main.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/main.png)
 
 4.  Установить Filebeat и Packetbeat (VPN)
 
@@ -65,22 +65,22 @@ editor: visual
 
 5.  Заходим на Localhost:9200 (Меняем файл .yml)
 
-![](false.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/false.png)
 
 Сайт:
 
-![](9200.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/9200.png)
 
 6.  Регистрируемся по токену
 
     Используем полученный пароль и имя elastic\
-    ![](regist.png){width="592"}
+    ![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/regist.png){width="592"}
 
 7.  Используем Filebeat и Packetbeat
 
-![](packet.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/packet.png)
 
-![](file.png)
+![alt text](https://github.com/AndrewKom/auth_5sem/blob/main/lab3/png/file.png)
 
 ## Оценка результатов
 
