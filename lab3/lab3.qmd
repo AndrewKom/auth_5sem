@@ -43,7 +43,7 @@ editor: visual
 
 > docker run --name kib-01 --net elastic -p 5601:5601 docker.elastic.co/kibana/kibana:8.7.1
 
-![](2.png)
+![](./png/2.png)
 
 3.  Увеличиваем память
 
@@ -51,7 +51,7 @@ editor: visual
 
 > sysctl -w vm.max_map_count=262144
 
-![](main.png)
+![](./png/main.png)
 
 4.  Установить Filebeat и Packetbeat (VPN)
 
@@ -65,22 +65,22 @@ editor: visual
 
 5.  Заходим на Localhost:9200 (Меняем файл .yml)
 
-![](false.png)
+![](./png/false.png)
 
 Сайт:
 
-![](9200.png)
+![](./png/9200.png)
 
 6.  Регистрируемся по токену
 
     Используем полученный пароль и имя elastic\
-    ![](regist.png){width="592"}
+    ![](./png/regist.png)
 
 7.  Используем Filebeat и Packetbeat
 
-![](packet.png)
+![](./png/packet.png)
 
-![](file.png)
+![](./png/file.png)
 
 ## Оценка результатов
 
