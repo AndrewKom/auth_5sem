@@ -1,6 +1,9 @@
 ---
 title: "Лабораторная работа 3"
-format: html
+author: "Комков Андрей"
+format:
+  md:
+    output-file: README.md
 editor: visual
 ---
 
