@@ -5,3 +5,4 @@
 4. Threat intelligence Platform OpenCTI
 5. Freeplane: ГОСТ Р 50922-2006
 6. OSINT: Инфосистемы Джет
+7. Создание сайта: https://andrewkom.github.io/AUT_SSG/
